@@ -1,0 +1,11 @@
+schema: workflow/2022.04
+name: catch_loginevent
+settings:
+  error_notification: true
+triggers:
+- id: hi_KNHjnXN
+steps:
+- namespace: node
+  runtime: nodejs18.x
+  uses: "./node/entry.js"
+
