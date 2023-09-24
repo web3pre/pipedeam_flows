@@ -1,0 +1,13 @@
+schema: workflow/2022.04
+name: zoomhook-lawyerjoin
+settings:
+  error_notification: true
+  lambda_memory: 1024
+  lambda_timeout: 113
+triggers:
+- id: dc_6Ruzbvb
+steps:
+- namespace: node
+  runtime: nodejs18.x
+  uses: "./node/entry.js"
+

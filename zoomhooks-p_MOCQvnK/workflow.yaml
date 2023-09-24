@@ -1,0 +1,13 @@
+schema: workflow/2022.04
+name: zoomhooks
+settings:
+  error_notification: true
+  lambda_memory: 512
+  lambda_timeout: 182
+triggers:
+- id: dc_pJuk0vY
+steps:
+- namespace: node
+  runtime: nodejs18.x
+  uses: "./node/entry.js"
+
